@@ -29,7 +29,10 @@ nav {
 }
 
 nav .heading {
+    display: flex;
+    justify-content: center;
     padding-top: 1.5rem;
+
 }
 
 .container {
@@ -72,6 +75,7 @@ nav .heading {
 
 .output-pointer {
     text-align: center;
+    font-size: small;
     margin-top: -1.3rem;
     color: black;
 }
@@ -118,6 +122,10 @@ nav .heading {
         width: 95%;
     }
 
+    nav .heading {
+        font-size: 1.1rem;
+    }
+
     .txt-input {
         height: 5rem;
         width: 100%;
@@ -139,6 +147,7 @@ nav .heading {
 
     .footer {
         margin-top: -7rem;
-        height: 16rem;
+        height: 10rem;
+        text-align: justify;
     }
 }
