@@ -2,7 +2,7 @@ var translateBtn = document.querySelector("#translate-btn");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 
-var serverURL = "https://api.funtranslations.com/translate/oldenglish.json"
+var serverURL = "https://api.funtranslations.com/translate/shakespeare.json"
 
 function getTranslationURL(input){
     return serverURL + "?" + "text=" + input
